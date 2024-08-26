@@ -9,9 +9,9 @@ import matplotlib.image as mpimg
 @st.cache_data
 def load_data():
     # Ubah path ini sesuai dengan lokasi file Anda
-    all_data = pd.read_csv("E:\\proyek_analisis_data_python\\data\\all_data.csv")
-    geo_df = pd.read_csv("E:\\proyek_analisis_data_python\\data\\geolocation.csv")
-    customers_df = pd.read_csv("E:\\proyek_analisis_data_python\\data\\customers_dataset.csv")
+    all_data = pd.read_csv("./data/all_data.csv")
+    geo_df = pd.read_csv("./data/geolocation.csv")
+    customers_df = pd.read_csv("./data/customers_dataset.csv")
 
     return all_data, geo_df, customers_df
 
